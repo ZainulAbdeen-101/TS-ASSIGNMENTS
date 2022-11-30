@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "types": "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,8 @@
     "@types/chalk": "^2.2.0",
     "@types/chalk-animation": "^1.6.1",
     "@types/inquirer": "^9.0.3",
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.9",
+    "deploy-restart": "^1.2.2"
   },
   "dependencies": {
     "chalk": "^5.1.2",
