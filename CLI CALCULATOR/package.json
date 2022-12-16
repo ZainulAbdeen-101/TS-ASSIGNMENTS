@@ -1,11 +1,11 @@
 {
   "name": "zxmcalc",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "",
   "main": "calculator.js",
   "type": "module",
   "bin": {
-    "zxmcalc": "bin/calculator.js"
+    "zxmcalc": "/calculator.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
