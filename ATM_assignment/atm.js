@@ -87,8 +87,8 @@ async function all() {
             const enteredAmount = users.amount;
             const remainingBalance = UsersBalance - enteredAmount;
             console.log(` 
- ${chalk.yellowBright(`${enteredAmount} Congrajulations Amount Withdrawed !!!`)} 
-  ${chalk.magentaBright(`${remainingBalance}  Your remaining Balance is `)}
+ ${chalk.yellowBright(`Congrajulations ${enteredAmount}  Amount Withdrawed !!!`)} 
+  ${chalk.magentaBright(`  Your remaining Balance is ${remainingBalance} `)}
   `);
         }
     }
